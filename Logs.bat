@@ -1,9 +1,5 @@
 @echo off
-cls
-echo Limpando >
-del /q /f C:\Windows\Temp\*.*
-rd /s /q C:\Windows\Temp
-mkdir C:\Windows\Temp
-echo Limpeza concluída!
-timeout /t 3 >nul
-exit
+echo Limpando a pasta C:\Windows\Temp...
+del /q C:\Windows\Temp\*.*
+echo Pasta C:\Windows\Temp limpa com sucesso.
+pause
